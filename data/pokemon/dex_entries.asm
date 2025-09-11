@@ -198,63 +198,63 @@ PokedexEntryPointers:
 ; text entry
 
 BulbasaurDexEntry:
-	db "SEED@"
-	db 2,4
-	dw 150
+	db "GRAINE@"
+	db 7
+	dw 69
 	text_far _BulbasaurDexEntry
 	text_end
 
 IvysaurDexEntry:
-	db "SEED@"
-	db 3,3
-	dw 290
+	db "GRAINE@"
+	db 10
+	dw 130
 	text_far _IvysaurDexEntry
 	text_end
 
 VenusaurDexEntry:
-	db "SEED@"
-	db 6,7
-	dw 2210
+	db "GRAINE@"
+	db 20
+	dw 1000
 	text_far _VenusaurDexEntry
 	text_end
 
 CharmanderDexEntry:
-	db "LIZARD@"
+	db "LEZARD@"
 	db 2,0
 	dw 190
 	text_far _CharmanderDexEntry
 	text_end
 
 CharmeleonDexEntry:
-	db "FLAME@"
+	db "FLAMME@"
 	db 3,7
 	dw 420
 	text_far _CharmeleonDexEntry
 	text_end
 
 CharizardDexEntry:
-	db "FLAME@"
+	db "FLAMME@"
 	db 5,7
 	dw 2000
 	text_far _CharizardDexEntry
 	text_end
 
 SquirtleDexEntry:
-	db "TINYTURTLE@"
+	db "MINITORTUE@"
 	db 1,8
 	dw 200
 	text_far _SquirtleDexEntry
 	text_end
 
 WartortleDexEntry:
-	db "TURTLE@"
+	db "TORTUE@"
 	db 3,3
 	dw 500
 	text_far _WartortleDexEntry
 	text_end
 
 BlastoiseDexEntry:
-	db "SHELLFISH@"
+	db "CARAPACE@"
 	db 5,3
 	dw 1890
 	text_far _BlastoiseDexEntry
